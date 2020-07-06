@@ -1,1 +1,28 @@
-# WomenSafetyDeviceIOT
+# Smart Wearable Device for Women Safety using IOT
+
+Hardware Connections:
+
+1. Arduino -	Microcontroller with digital and analog I/O pins.	
+Connect to 9V lithium ion battery,all the sensors and modules will be interfaced with the help of arduino I/O pins.
+2. GSM(Global System for Mobile Communication)-	GSM is used for sending message alerts.	
+Connect GSM RX to Digital pin 3 ,TX to Digital pin 2
+3. GPS(Global Positioning System)-	GPS is used for attaining the location coordinates from the satellite 	
+Connect GPS RX to Digital pin 1,TX to  Digital pin 0
+4. Pressure Sensor-	Attaining applied  pressure readings.	
+Connected to Digital pin 5 of the arduino
+5. Temperature Sensor-	Attaining the temperature values by setting the potentiometer threshold 	
+Connected to Digital pin 6 of the arduino
+6. Pulse rate Sensor-	Attaining the Beats per Minute(BPM) 	
+Connected to Analog pin 0 of the arduino
+7. Buzzer- 	Activates a loud sound on pressing the toggle button 	
+Connected to Digital pin 7 of the arduino
+8. Button-	Toggle on/off button	
+Connected to Digital pin 4 of the arduino
+
+Arduino Software Usage:
+
+1. Use your Arduino Uno on the Arduino Web IDE:
+●	All Arduino boards, work out-of-the-box on the Arduino Web Editor, no need to install anything.Directly Upload the code and you can run that.
+2. Use your Arduino Uno on the Arduino Desktop IDE:
+●	If you want to program your Arduino Uno while offline you need to install the Arduino Desktop IDE The Uno is programmed using the Arduino Software (IDE), Integrated Development Environment common to all arduino boards. Before you can move on, you must have installed the Arduino Software (IDE) on your PC, as explained in the home page of our Getting started.
+●	For step wise setup of your arduino software follow the steps mentioned here.
