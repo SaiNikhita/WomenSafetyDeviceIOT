@@ -1,5 +1,8 @@
 # Smart Wearable Device for Women Safety using IOT
 
+A smart device for women safety against crimes which automatically detects possibility of crime using sensors. The alert message is sent to the relatives and respective officials along with location of the victim.
+ 
+
 Hardware Connections:
 
 1. Arduino -	Microcontroller with digital and analog I/O pins.	<br />
